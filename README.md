@@ -1,6 +1,6 @@
 # JVisualVM Notes
 
-To remotely connected to a JVM application using JVisualVM, add following arguments:
+To remotely connect to a JVM application using JVisualVM, add following arguments:
 
 ```
 java \
@@ -42,6 +42,6 @@ Just make sure that following arguments are specified before `-jar`:
 
 Then in JVisualVM: 
 
-1. Select `Add Remote Host`, and enter the ip address of the application
-2. Select `Add JMX Connection`, and enter the port that you specified above in those JVM arguments
+1. Select `Add Remote Host` and enter the ip address of the application
+2. Select `Add JMX Connection` and enter the port that you specified above in those JVM arguments
 
